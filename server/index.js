@@ -13,9 +13,9 @@ import paymentRouter from "./routes/payment.route.js"
 
 const app = express()
 const allowedOrigins = [
-    "http://localhost:5173",
-    "http://localhost:5174",
-    "http://localhost:5175",
+    "https://interviewai-s13s.onrender.com",
+    "https://interviewai-s13s.onrender.com",
+    "https://interviewai-s13s.onrender.com",
     process.env.CLIENT_URL,
 ].filter(Boolean)
 
