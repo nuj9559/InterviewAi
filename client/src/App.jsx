@@ -11,7 +11,7 @@ import InterviewHistory from './pages/InterviewHistory'
 import Pricing from './pages/Pricing'
 import InterviewReport from './pages/InterviewReport'
 
-export const ServerUrl  = "https://interviewai-backend-im3n.onrender.com"
+export const ServerUrl = import.meta.env.VITE_API_URL || ""
 
 function App() {
 
